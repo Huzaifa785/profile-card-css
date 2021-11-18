@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    align-items: center;
+    background: #F5F5F5;
+    }
+
+.card {
+    background: white;
+    width: 300px;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.blue-bg {
+    background: #0060B7;
+    width: 100%;
+    height: 150px;
+    padding: 0 ;
+}
+
+img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-top: -70px;
+    border: 5px solid white;
+}
+
+.person-details {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.single-detail{
+    line-height: 30px; 
+    opacity: 0.8;
+}
+
+.my-icon {
+    margin-right: 22px;
+}
+
+.dribble {
+    color: rgb(218, 52, 80);
+}
+
+.dribble:hover {
+    transition: all 0.7s;
+    transform: translateY(-10px);
+}
+
+.facebook {
+    color: blue;
+}
+
+.facebook:hover {
+    transition: all 0.7s;
+    transform: translateY(-10px);
+}
+
+.linkedin {
+    color: rgb(13, 94, 243);
+}
+
+.linkedin:hover {
+    transition: all 0.7s;
+    transform: translateY(-10px);
+}
+
+.youtube {
+    color: red;
+}
+
+.youtube:hover {
+    transition: all 0.7s;
+    transform: translateY(-10px);
+}
+
+.footer-icons {
+    margin-bottom: 30px;
+}
+
+.footer-single-icon {
+    margin-right: 15px;
+}
